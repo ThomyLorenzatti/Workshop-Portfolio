@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.0.0-rc.13"
+  },
+  "dependencies": {
+    "nuxt3": "^3.0.1-rc.0-27817270.4f2bfbe",
+    "octokit": "^2.0.10",
+    "vite": "^3.2.4"
+  }
+}

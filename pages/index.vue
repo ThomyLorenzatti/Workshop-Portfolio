@@ -22,13 +22,13 @@ a {
 </style>
 
 <script setup>
-  import { Octokit } from "octokit";
-  const config = useRuntimeConfig()
-  console.log(config.token)
-  const octokit = new Octokit({
-    auth: config.token})
+  // import { Octokit } from "octokit";
+  // const config = useRuntimeConfig()
+  // console.log(config.token)
+  // const octokit = new Octokit({
+  //   auth: config.token})
 
-  await octokit.request('GET /users/ThomyLorenzatti/repos', {
-    username: 'ThomyLorenzatti'
-  })
+  // await octokit.request('GET /users/ThomyLorenzatti/repos', {
+  //   username: 'ThomyLorenzatti'
+  // })
 </script>

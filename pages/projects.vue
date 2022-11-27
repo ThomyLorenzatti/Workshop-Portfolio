@@ -13,6 +13,7 @@ a {
 <script setup>
     import axios from 'axios';
     const config = useRuntimeConfig()
+    console.log(config.token)
 
     const { data } = await axios({
         method: 'get',
@@ -22,5 +23,4 @@ a {
             "Content-Type": "application/json"
         },
     })
-    console.log("data", data)
 </script>

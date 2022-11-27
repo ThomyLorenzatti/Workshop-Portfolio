@@ -11,6 +11,7 @@
     "nuxt": "^3.0.0-rc.13"
   },
   "dependencies": {
+    "axios": "^1.2.0",
     "nuxt3": "^3.0.1-rc.0-27817270.4f2bfbe",
     "octokit": "^2.0.10",
     "vite": "^3.2.4"

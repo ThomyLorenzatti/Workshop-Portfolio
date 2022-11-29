@@ -11,16 +11,6 @@ a {
 </style>
 
 <script setup>
-    import axios from 'axios';
-    const config = useRuntimeConfig()
-    console.log(config.token)
-
-    const { data } = await axios({
-        method: 'get',
-        url: `https://api.github.com/users/ThomyLorenzatti/repos`,
-        headers: {
-            Authorization: `Bearer ${config.token}`,
-            "Content-Type": "application/json"
-        },
-    })
+    const data = await $fetch('/api/repos')
+    console.log("data", data)
 </script>

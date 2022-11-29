@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header>
-      Portfolio JAM
+      Portfolio Masterclass
     </Header>
     <slot />
   </div>

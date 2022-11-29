@@ -1,7 +1,7 @@
 import axios from 'axios';
+const config = useRuntimeConfig()
 
 export default defineEventHandler(async (event) => {
-    const config = useRuntimeConfig()
     console.log(config.token)
 
     const { data } = await axios({

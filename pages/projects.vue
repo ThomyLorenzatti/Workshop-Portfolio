@@ -11,6 +11,6 @@ a {
 </style>
 
 <script setup>
-    const data = await $fetch('/api/repos')
+    const { data } = await useFetch('/api/repos')
     console.log("data", data)
 </script>

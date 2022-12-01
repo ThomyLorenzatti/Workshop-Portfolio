@@ -21,6 +21,11 @@ pre {
   -webkit-font-smoothing: antialiased;
 }
 
+div {
+  font-family: "poppins", sans-serif;
+  -webkit-font-smoothing: antialiased; 
+}
+
 button {
     background: transparent;
     padding: 0;
